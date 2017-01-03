@@ -1,0 +1,8 @@
+To assemble the asm file
+nasm -felf64 sample.asm -o sample.o
+
+to link it
+ld sample.o -o sample
+
+to execute your program
+./sample
